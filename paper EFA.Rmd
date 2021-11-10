@@ -1,0 +1,24 @@
+---
+title: "Factor analysis of the Depression Clinical Evaluation Test"
+author: "Maria Guillot"
+date: "14/07/2021"
+output: pdf_document
+
+---
+
+# Introduction 
+ 
+Depression is one of the most common psychological disorders, according to the World Health Organization, only in Spain depression affects 2.5 million people (5.2% of the general population),very close to the data observed worldwide, around 4.2% (World Health Organization, 2017). However, its evaluation is complex, even when there are a variety of questionnaires, inventories and scales intended for its measurement and diagnosis (Guillot-Valdés & Guillén-Riquelme, 2019, 2020). 
+In these instruments, the correlations with anxiety measures are very high and patients with anxiety also tend to have high depression scores (Agudelo et al., 2007, Eysenck & Fajkowska, 2018).
+Major depression is a disorder with a wide symptomatology. This range includes cognitive, behavioral and psychosomatic symptoms, in addition to the central emotional symptoms in the disorder. Despite this variety, there are no scales in which all of them are evaluated with different items for each type of symptoms. One of the most classic questionnaires is the Beck Depression Inventory (Beck et al. 1961, S?nz et al., 2014). This questionnaire is one of the most used by clinical psychologists (Muñiz & Fernandez-Hermida, 2010.).  One of its advantages is that it covers a wide variety of the depressive spectrum with very few items, however, as mentioned above, it only covers each facet with one or two items, which makes it difficult to know the most affected areas of a concrete case in a realiable form. 
+Thus, it is common for evaluations to be complemented using various questionnaires (each one focused on a specific area) in order to make a reliable clinical profile in each affected area. In addition, this methodology presents results that are not easy to integrate, since they have different cut-off points, they evaluate independent aspects of depression and, furthermore, are constructed with different samples and different procedures. The controversy about whether depression is dimensional or categorical is also very important, since this approach influences the construction of instruments for its evaluation (Agudelo et al. 2007).
+The aim of our actual study is to solve these limitations through the establishment of an instrument that evaluates a wide spectrum of the main/core components of depression, which are representative of itself and they have, at the same way, a total coverage of all symptoms.In this case, it is about operationalizing an abstract concept (construct) such as depression, through concrete and tangible elements (items) (Mu?iz & Fonseca-Pedrero, 2019). Consequently, the finally selected items must measure the dimensions of the construct (Ding & Hershberger, 2002).
+Therefore, the proposed instrument for evaluating depression has the following advantages: a) being an instrument that represents a depression's construct which is widely accepted by most researchers; b) allows a very exhaustive evaluation; c) provides information on each of the symptoms of depression and an overall score; d) guides the clinician on the factors to act; e) evaluates the symptoms at the present time, in the last weeks and months and in the past (more than a year); f)it  is compatible with the DSM and CIE diagnostic system; e) at a theoretical level, it will allow to analyze the covariation between the different factors that the test evaluates.
+
+First, the instrument, consisting of 300 items, was subjected to a qualitative evaluation of its quality by consulting 14 experts. The  comprehension of the items was also analyzed for the type of population to which it is intended in a sample of 50 people. The experts evaluated the items based on the criteria of content, relevance, clarity, understanding, sensitivity and offensiveness. This process involved the suppression of 104 items.
+
+
+
+
+
+
