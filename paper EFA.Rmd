@@ -17,8 +17,24 @@ Therefore, the proposed instrument for evaluating depression has the following a
 
 First, the instrument, consisting of 300 items, was subjected to a qualitative evaluation of its quality by consulting 14 experts. The  comprehension of the items was also analyzed for the type of population to which it is intended in a sample of 50 people. The experts evaluated the items based on the criteria of content, relevance, clarity, understanding, sensitivity and offensiveness. This process involved the suppression of 104 items.
 
+  ![Figura 1](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada mes.png)
+  ![Figura 2](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada siempre.png)
+  ![Figura 3](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada año.png)
+  
+  
+```{r mitabla1}
+knitr::kable(mtcars[1:5,])
+```
 
-
+```{r results='asis'}
+ejemplo <- lm(Petal.Width ~ Petal.Length,data = iris)
+  
+stargazer::stargazer(ejemplo, 
+header = FALSE, 
+label = "tab:regresion1", 
+type=ifelse(knitr::is_latex_output(),"latex","html"), 
+title="tabla de regresión con stargazer")
+```
 
 
 
