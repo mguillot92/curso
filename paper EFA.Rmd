@@ -1,9 +1,12 @@
 ---
 title: "Factor analysis of the Depression Clinical Evaluation Test"
 author: "Maria Guillot"
-date: "14/07/2021"
-output: pdf_document
-
+date: "14/12/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+bibliography: misreferencias.bib
 ---
 
 # Introduction 
@@ -17,24 +20,34 @@ Therefore, the proposed instrument for evaluating depression has the following a
 
 First, the instrument, consisting of 300 items, was subjected to a qualitative evaluation of its quality by consulting 14 experts. The  comprehension of the items was also analyzed for the type of population to which it is intended in a sample of 50 people. The experts evaluated the items based on the criteria of content, relevance, clarity, understanding, sensitivity and offensiveness. This process involved the suppression of 104 items.
 
-  ![Figura 1](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada mes.png)
-  ![Figura 2](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada siempre.png)
-  ![Figura 3](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada año.png)
+We made also a network analysis, showed in Figure 1
+
+  ![Network analysis](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/analisis redes/lasso network año.png)
+
+  ![Varianza explicada mes](C:/Users/Marixu/Dropbox/María Guillot/muestra analisis factorial/TECDAnalisis1/varianza explicada mes.png)
   
   
-```{r mitabla1}
-knitr::kable(mtcars[1:5,])
+```{r nombre, opciones, echo=FALSE}
+datos <-read.csv("BaseCSV.csv")
+datos2 <-read.csv2("starwars_names.csv")
 ```
 
-```{r results='asis'}
-ejemplo <- lm(Petal.Width ~ Petal.Length,data = iris)
-  
-stargazer::stargazer(ejemplo, 
-header = FALSE, 
-label = "tab:regresion1", 
-type=ifelse(knitr::is_latex_output(),"latex","html"), 
-title="tabla de regresión con stargazer")
+
+```{r mitabla2, echo=FALSE}
+knitr::kable(datos2[1:20,],
+             caption = "tabla Starwars",
+             digits = 2)
 ```
+
+```{r plot, echo=FALSE}
+plot(datos2)
+```
+\newpage
+### Referencias
+
+@lanibeck
+@eysenck2018anxiety
+
 
 
 
